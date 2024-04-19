@@ -1,6 +1,6 @@
 import os
 import sys
-from exception import CustomException
+from src.exception import CustomException
 from src.logger import logging
 import pandas as pd
 
@@ -58,5 +58,6 @@ if __name__=="__main__":
 
     modeltrainer=ModelTrainer()
     print(modeltrainer.initiate_model_trainer(train_arr,test_arr))
+
 
 
